@@ -275,10 +275,10 @@ class WP_Reset
 
         $def_options = array('tools_snapshots' => false, 'events_snapshots' => false, 'snapshots_autoupload' => false, 'autosnapshots_autoupload' => false, 'snapshots_upload_delete' => false, 'scheduled_snapshots' => false, 'prune_snapshots' => false, 'prune_snapshots_details' => 'days-5', 'adminbar_snapshots' => true, 'optimize_tables' => false, 'snapshots_size_alert' => 1000, 'throttle_ajax' => false, 'fix_datetime' => false, 'alternate_db_connection' => false, 'ajax_snapshots_export' => false, 'cloud_snapshots' => false, 'onboarding_done' => false, 'whitelabel' => false, 'debug' => false, 'cloud_service' => 'none', 'cloud_data' => array('dropbox' => false, 'gdrive' => false, 'icedrive' => false));
         
-        if(!array_key_exists('icedrive', $options['options']['cloud_data'])){
+       /* if(!array_key_exists('icedrive', $options['options']['cloud_data'])){
             $options['options']['cloud_data']['icedrive'] = false;
         }
-
+    */
         if(!array_key_exists('alternate_db_connection', $options['options'])){
             $options['options']['alternate_db_connection'] = false;
         }
