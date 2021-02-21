@@ -29,7 +29,7 @@ define( 'DB_USER', 'u633776427_heroku' );
 define( 'DB_PASSWORD', 'Ns2b7bfqbf!' );
 
 /** MySQL hostname */
-define( 'DB_HOST', '212.107.19.2' );
+define( 'DB_HOST', 'sql234.main-hosting.eu' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
